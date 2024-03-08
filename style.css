@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Quicksand", sans-serif;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 0px;
+    display: flex;
+    gap: 0rem;
+}
+
+p {
+    text-align: justify;
+}
+
+header {
+    padding-top: 4px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(59deg, rgba(2, 0, 36, 1) 0%, rgba(88, 88, 233, 1) 25%, rgba(0, 212, 255, 1) 100%);
+}
+
+aside {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.logo img {
+    width: 40%;
+    margin: 10px 20px;
+
+}
+
+.text-title {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 20px;
+    position: absolute;
+    right: 30%;
+    color: white;
+
+}
+
+.text-title p {
+    font-size: larger;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.text-title h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+aside>nav {
+    position: sticky;
+    flex: 1;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #5f5f97, #686691, #706e8a, #777584, #7d7d7d);
+    height: 100%;
+    top: -10px;
+}
+
+li {
+    list-style: none;
+    padding: 10px 5px;
+    margin: 0
+}
+
+ul {
+    padding: 2em;
+
+}
+
+nav a {
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+nav a:hover {
+    color: rgb(41, 17, 253);
+    font-size: 1em;
+
+}
+
+
+#content {
+    flex: 5;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+    padding: 10px 20px;
+}
+
+#Sejarah>img {
+    float: right;
+    width: 30%;
+    margin: 0px 20px;
+
+}
+
+#Geografis>img {
+    float: left;
+    width: 40%;
+    margin-right: 1.5rem;
+}
