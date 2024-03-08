@@ -68,7 +68,7 @@ aside>nav {
     flex: 1;
     flex-direction: column;
     background-image: linear-gradient(to top, #5f5f97, #686691, #706e8a, #777584, #7d7d7d);
-    height: 100%;
+    height: 75%;
     top: -10px;
 }
 
